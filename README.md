@@ -1,0 +1,92 @@
+Hier ist ein Vorschlag für eine **README.md**-Datei für dein Projekt, basierend auf dem Code, den du geteilt hast. Diese README enthält eine kurze Einführung, eine Beschreibung des Zwecks der Seite, Anweisungen zur Verwendung und eine Lizenzinformation. Du kannst sie nach Belieben anpassen, je nach Bedarf und zusätzlichen Details, die du eventuell hinzufügen möchtest.
+
+---
+
+# HEW-Score: Hirnfunktionsausfall-Eignung-Wille (HEW) - Tool zur DSO Meldeempfehlung
+
+## Beschreibung
+
+Der **HEW-Score** ist ein interaktives Tool, das zur Berechnung der **DSO-Meldeempfehlung** verwendet wird. Basierend auf den Eingabewerten für **IHA (Indikator der Hirnfunktionsausfälle)**, **medizinische Eignung** und **Organspendewille**, gibt dieses Tool eine Empfehlung ab, ob eine Meldung an die **Deutsche Stiftung Organtransplantation (DSO)** erforderlich ist oder nicht.
+
+Die Berechnung basiert auf folgenden Kriterien:
+- **IHA** (Indikator für Hirnfunktionsausfall)
+- **Medizinische Eignung**
+- **Organspendewille**
+
+Das Tool stellt sicher, dass medizinische Fachkräfte schnell eine informierte Entscheidung treffen können, ob ein Patient für die Meldung an die DSO geeignet ist.
+
+## Funktionen
+
+- Auswahl der **IHA** (festgestellt, erwartet/vermutet, nicht feststellbar)
+- Eingabe der **medizinischen Eignung** (keine KI, unklar, bekannte KI)
+- Auswahl der **Organspendewille** (Zustimmung, ungeklärt, Ablehnung)
+- Berechnung des HEW-Scores und Anzeige der entsprechenden DSO-Meldeempfehlung.
+
+Das Ergebnis wird mit einer Empfehlung zur Meldung an die DSO oder ohne Meldung angezeigt.
+
+## Anwendung
+
+1. **Auswahl der Optionen**: 
+   - Wähle die Optionen aus, die auf den Patienten zutreffen:
+     - IHA
+     - Medizinische Eignung
+     - Organspendewille
+
+2. **Berechnung**: 
+   - Klicke auf den **"Auswertung"**-Button, um den HEW-Score zu berechnen.
+   
+3. **Ergebnis**: 
+   - Das Tool zeigt das Ergebnis und eine Empfehlung an, ob eine Meldung an die DSO erforderlich ist.
+
+4. **DSO Spenderhotline**: 
+   - Du kannst die **DSO Spenderhotline** durch Klicken auf den Button erreichen.
+
+## Wie man das Tool nutzt
+
+1. **Klonen oder herunterladen**:
+   - Du kannst das Repository klonen oder die Dateien direkt herunterladen, um sie lokal auszuführen:
+     ```bash
+     git clone https://github.com/dein-benutzername/HEW-Score.git
+     ```
+   
+2. **Öffnen der Datei**:
+   - Öffne die `index.html` in deinem Browser, um das Tool zu verwenden.
+
+3. **Interaktive Nutzung**:
+   - Wähle die entsprechenden Optionen aus und klicke auf den "Auswertung"-Button, um das Ergebnis zu sehen.
+
+## Technologie
+
+- **HTML**: Struktur und Inhalt des Tools
+- **CSS**: Stil und Layout der Benutzeroberfläche
+- **JavaScript**: Berechnungslogik und Interaktivität
+- **Flexbox**: Für responsives Design
+
+## Mitwirkende
+
+Dieses Projekt wurde entwickelt von:
+
+- **F. Lehmann**
+- **S. Ehrentraut**
+- **J. Weller**
+
+Weitere Informationen finden Sie in der [Medizinischen Klinik - Intensivmedizin und Notfallmedizin 2024](https://www.intensivmedizinischewochenschrift.de).
+
+## Lizenz
+
+Dieses Projekt ist unter der [MIT License](LICENSE) lizenziert.
+
+---
+
+### Hinweise zur Verwendung:
+
+- Stelle sicher, dass dein Browser JavaScript unterstützt und aktiviert ist.
+- Die **DSO Spenderhotline**-Funktion ist mit einem Link zu einer externen Webseite verbunden.
+
+---
+
+**Hinweis:** Falls du vorhast, das Tool weiter zu entwickeln oder zu verbessern, kannst du Forks des Repositories erstellen und Pull Requests einreichen. So kannst du auch zum Projekt beitragen.
+
+---
+
+Diese README bietet eine gute Grundlage für dein Projekt und beschreibt die wichtigsten Funktionen und Schritte zur Nutzung. Passe sie an, je nachdem, ob du noch zusätzliche Features hinzufügst oder spezifische Informationen über das Projekt bereitstellen möchtest.
