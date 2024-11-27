@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<style>
+  	#calculator {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	border: 1px solid black;
+    	border-radius: 20px;
+    	padding: 20px;
+  	}
+  	strong {
+    	font-weight: bold;
+    	text-decoration: underline;
+  	}
+  	/* Stil für den Auswertungsbutton */
+  	button {
+    	background-color: #4e7ea8; /* Diskretes Blau */
+    	color: white; /* Weißer Text */
+    	padding: 10px 20px; /* Innenabstand */
+    	border: none; /* Keine Rahmen */
+    	border-radius: 5px; /* Abgerundete Ecken */
+    	cursor: pointer; /* Zeigerzeichen beim Überfahren */
+    	transition: background-color 0.3s; /* Animierter Farbübergang */
+  	}
+  	/* Hovern-Effekt für den Button */
+  	button:hover {
+    	background-color: #345d7e; /* Dunkleres Blau beim Überfahren */
+  	}
+	</style>
+  </head>
+  <body>
+	<h1>Hirnfunktionsausfall-Eignung-Wille (HEW)-Score</h1><h3> ein Tool zur Feststellung der DSO Meldeempfehlung</h3>
+	<div id="calculator">
+  	<div>
+    	<p><strong>IHA:</strong></p>
+    	<input type="radio" id="IHA6" name="IHA" value="300"> festgestellt<br>
+    	<input type="radio" id="IHA3" name="IHA" value="200"> erwartet/vermutet<br>
+    	<input type="radio" id="IHA0" name="IHA" value="100"> nicht feststellbar<br>
+         	<br>
+    	<p><strong>Medizinische Eignung:</strong></p>
+    	<input type="radio" id="medizinischeEignung3" name="medizinischeEignung" value="30"> keine KI<br>
+    	<input type="radio" id="medizinischeEignung2" name="medizinischeEignung" value="20"> unklar<br>
+    	<input type="radio" id="medizinischeEignung1" name="medizinischeEignung" value="10"> bekannte KI<br>
+    	<p><strong>Organspendewille:</strong></p>
+    	<input type="radio" id="organspendewille06" name="organspendewille" value="3"> Zustimmung<br>
+    	<input type="radio" id="organspendewille03" name="organspendewille" value="2"> ungeklärt<br>
+    	<input type="radio" id="organspendewille01" name="organspendewille" value="1"> Ablehnung<br>
+ 	 
+    	<br>
+   	 
+  	</div>
+   	<br>
+  	<button onclick="calculate()">Auswertung</button>
+   	<br><br> <!-- Leerzeile einfügen -->
+  	<div id="result"></div>
+  	<p>
+	<button onclick="location.href='https://dso.de/organspende/fachinformationen/organspendeprozess/24h-spendermeldung'">DSO Spenderhotline</button></p>
+<br>
+<p>Made by F.Lehmann & S.Ehrentraut & J. Weller <br> siehe <a href="www.intensivmedizinischewochenschrift.de">Medizinische Klinik - Intensivmedizin und Notfallmedizin 2024</a></p>
+	</div>
+	<script>
+  	function calculate() {
+    	var iha = parseFloat(
+      	document.querySelector('input[name="IHA"]:checked').value
+    	);
+    	var organspendewille = parseFloat(
+      	document.querySelector('input[name="organspendewille"]:checked').value
+    	);
+    	var medizinischeEignung = parseFloat(
+      	document.querySelector('input[name="medizinischeEignung"]:checked').value
+    	);
+    	var result = (iha + organspendewille + medizinischeEignung);
+    	var resultMessage =
+      	result > 213 ? "Empfehlung: Meldung an die DSO" : "Empfehlung: Keine Meldung an die DSO";
+    	document.querySelector("#result").innerHTML =
+      	"Ergebnis: " + result + "<br>" + resultMessage;
+  	}
+	</script>
+  </body>
+</html>
