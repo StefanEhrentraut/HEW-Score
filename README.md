@@ -1,6 +1,3 @@
-Hier ist ein Vorschlag für eine **README.md**-Datei für dein Projekt, basierend auf dem Code, den du geteilt hast. Diese README enthält eine kurze Einführung, eine Beschreibung des Zwecks der Seite, Anweisungen zur Verwendung und eine Lizenzinformation. Du kannst sie nach Belieben anpassen, je nach Bedarf und zusätzlichen Details, die du eventuell hinzufügen möchtest.
-
----
 
 # HEW-Score: Hirnfunktionsausfall-Eignung-Wille (HEW) - Tool zur DSO Meldeempfehlung
 
