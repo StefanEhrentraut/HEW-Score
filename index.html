@@ -1,33 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="de"> 
   <head>
+	   <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Hirnfunktionsausfall-Eignung-Wille (HEW)-Score</title>
 	<style>
-  	#calculator {
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	border: 1px solid black;
-    	border-radius: 20px;
-    	padding: 20px;
-  	}
-  	strong {
-    	font-weight: bold;
-    	text-decoration: underline;
-  	}
-  	/* Stil für den Auswertungsbutton */
-  	button {
-    	background-color: #4e7ea8; /* Diskretes Blau */
-    	color: white; /* Weißer Text */
-    	padding: 10px 20px; /* Innenabstand */
-    	border: none; /* Keine Rahmen */
-    	border-radius: 5px; /* Abgerundete Ecken */
-    	cursor: pointer; /* Zeigerzeichen beim Überfahren */
-    	transition: background-color 0.3s; /* Animierter Farbübergang */
-  	}
-  	/* Hovern-Effekt für den Button */
-  	button:hover {
-    	background-color: #345d7e; /* Dunkleres Blau beim Überfahren */
-  	}
+  	  /* Globale Schriftarten und Basis-Layout */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      /* Container für den Rechner */
+      #calculator {
+        max-width: 600px; /* Maximale Breite */
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+      }
+
+      /* Flexbox-Layout für die Eingabefelder */
+      .section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+
+      .section p {
+        margin: 10px 0;
+        font-size: 1.1em;
+      }
+
+      /* Anpassungen für die Eingabefelder */
+      input[type="radio"] {
+        margin-right: 10px;
+      }
+
+      /* Stil für den Auswertungsbutton */
+      button {
+        background-color: #4e7ea8;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      button:hover {
+        background-color: #345d7e;
+      }
+
+      /* Responsives Design: für kleinere Geräte (z.B. Smartphones) */
+      @media (max-width: 600px) {
+        #calculator {
+          padding: 15px;
+        }
+
+        button {
+          font-size: 1.1em;
+        }
+
+        .section p {
+          font-size: 1em;
+        }
+      }
+
+      /* Stil für das Ergebnis */
+      #result {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      /* Stil für den Footer */
+      footer {
+        text-align: center;
+        font-size: 0.9em;
+        margin-top: 30px;
+        color: #666;
+      }
+
+      footer a {
+        color: #4e7ea8;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
 	</style>
   </head>
   <body>
