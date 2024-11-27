@@ -64,14 +64,20 @@ Das Ergebnis wird mit einer Empfehlung zur Meldung an die DSO oder ohne Meldung 
 Dieses Projekt wurde entwickelt von:
 
 - **F. Lehmann**
-- **S. Ehrentraut**
+- **S.F. Ehrentraut**
 - **J. Weller**
 
-Weitere Informationen finden Sie in der [Medizinischen Klinik - Intensivmedizin und Notfallmedizin 2024](https://www.intensivmedizinischewochenschrift.de).
+Weitere Informationen zum medizinischen Hintergrund des HEW-Tools finden Sie in der [Medizinischen Klinik - Intensivmedizin und Notfallmedizin 2024](https://www.intensivmedizinischewochenschrift.de).
 
-## Lizenz
+## Lizenz und Namensnennung
 
-Dieses Projekt ist unter der [MIT License](LICENSE) lizenziert.
+Dieses Projekt ist unter der [MIT License](LICENSE) lizenziert. Bei Verwendung des Codes, oder Abwandlungen davon
+
+### Namensnennung (Attribution)
+
+Bei der Nutzung oder Weiterentwicklung dieses Codes ist es erforderlich, die ursprünglichen Autoren zu nennen. Bitte verwenden Sie dafür folgenden Hinweis:
+
+> Dieses Projekt basiert auf dem Originalcode von [F. Lehmann, S.F. Ehrentraut und J. Weller/Universitätsklinikum Bonn], verfügbar unter [https://stefanehrentraut.github.io/HEW-Score/].
 
 ---
 
@@ -85,5 +91,3 @@ Dieses Projekt ist unter der [MIT License](LICENSE) lizenziert.
 **Hinweis:** Falls du vorhast, das Tool weiter zu entwickeln oder zu verbessern, kannst du Forks des Repositories erstellen und Pull Requests einreichen. So kannst du auch zum Projekt beitragen.
 
 ---
-
-Diese README bietet eine gute Grundlage für dein Projekt und beschreibt die wichtigsten Funktionen und Schritte zur Nutzung. Passe sie an, je nachdem, ob du noch zusätzliche Features hinzufügst oder spezifische Informationen über das Projekt bereitstellen möchtest.
