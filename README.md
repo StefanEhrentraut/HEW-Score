@@ -71,13 +71,14 @@ Weitere Informationen zum medizinischen Hintergrund des HEW-Tools finden Sie in 
 
 ## Lizenz und Namensnennung
 
-Dieses Projekt ist unter der [MIT License](LICENSE) lizenziert. Bei Verwendung des Codes, oder Abwandlungen davon
+Dieses Projekt ist unter der [MIT License](LICENSE) lizenziert. Bitte beachten Sie, dass bei Verwendung des Codes oder Weiterentwicklung des Codes die ursprünglichen Autoren genannt werden müssen. 
+
 
 ### Namensnennung (Attribution)
 
 Bei der Nutzung oder Weiterentwicklung dieses Codes ist es erforderlich, die ursprünglichen Autoren zu nennen. Bitte verwenden Sie dafür folgenden Hinweis:
 
-> Dieses Projekt basiert auf dem Originalcode von [F. Lehmann, S.F. Ehrentraut und J. Weller/Universitätsklinikum Bonn], verfügbar unter [https://stefanehrentraut.github.io/HEW-Score/].
+> Dieses Projekt basiert auf dem Originalcode von F. Lehmann, S.F. Ehrentraut und J. Weller/Universitätsklinikum Bonn, verfügbar unter [https://stefanehrentraut.github.io/HEW-Score/].
 
 ---
 
