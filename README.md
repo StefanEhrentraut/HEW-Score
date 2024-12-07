@@ -67,7 +67,7 @@ Dieses Projekt wurde entwickelt von:
 - **S.F. Ehrentraut**
 - **J. Weller**
 
-Weitere Informationen zum medizinischen Hintergrund des HEW-Tools finden Sie in der [Medizinischen Klinik - Intensivmedizin und Notfallmedizin 2024](https://www.intensivmedizinischewochenschrift.de).
+Weitere Informationen zum medizinischen Hintergrund des HEW-Tools finden Sie in der [Medizinischen Klinik - Intensivmedizin und Notfallmedizin 2024](https://link.springer.com/article/10.1007/s00063-024-xxxxx-x).
 
 ## Lizenz und Namensnennung
 
