@@ -67,7 +67,7 @@ Dieses Projekt wurde entwickelt von:
 - **S.F. Ehrentraut**
 - **J. Weller**
 
-Weitere Informationen zum medizinischen Hintergrund des HEW-Tools finden Sie in der [Medizinischen Klinik - Intensivmedizin und Notfallmedizin 2024]([https://link.springer.com/article/10.1007/s00063-024-xxxxx-x](https://www.springermedizin.de/irreversibler-hirnfunktionsausfall/neurointensivmedizin/hew-score-ein-werkzeug-zur-homogenisierung-der-spendermeldungen-/50569326)).
+Weitere Informationen zum medizinischen Hintergrund des HEW-Tools finden Sie in der [Medizinischen Klinik - Intensivmedizin und Notfallmedizin 2024](https://www.springermedizin.de/irreversibler-hirnfunktionsausfall/neurointensivmedizin/hew-score-ein-werkzeug-zur-homogenisierung-der-spendermeldungen-/50569326).
 
 ## Lizenz und Namensnennung
 
